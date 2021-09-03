@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #CCC;
+}
+
+.container {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CCC;
+  color: #000;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1, h2, p, strong, i, li {
+  padding-bottom: 20px;
+}
+
+li {
+  padding-bottom: 15px;
+  list-style-type: none;
+}
+
+.help-text {
+  width: 50%;
+}
+
+.choice-pick {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 200px;
+  background-color: #CCC;
+}
+
+.inputdiv {
+  display: flex;
+  padding: 5px;
+  width: 300px;
+  height: 30px;
+  margin: 15px auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+#choice {
+  border: none;
+  outline: none;
+}
+
+#btn, #choicebtn {
+  padding: 5px;
+  width: 310px;
+  height: 35px;
+  margin: 15px auto;
+  background-color: #000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  background-color: red;
+  color: #ffffff;
+  padding: 10px 0;
+  margin: 5px auto;
+  width: 310px;
+  border-radius: 5px;
+}
+
+/* .landingButton {
+  color: #ffffff;
+  background-color: #008080;
+  height: 40px;
+  width: 200px;
+  border-radius: 30px;
+  border: none;
+}
+
+D9E2E8*/
