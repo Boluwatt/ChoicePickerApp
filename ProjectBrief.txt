@@ -1,0 +1,18 @@
+Project Name: Choice Picker App
+Author: Oluwagbamila Boluwatife
+
+Project Description
+    The choice picker app was borne out of the need to make a choice between two options without
+    my personal bias getting in the way. This project however will allow users input multiple 
+    choices and have a choice picked for them randomly. This totally eliminates natural personal 
+    bias as this program will be based purely on Algorithm
+
+Tasks
+    Create a repository on github. - Completed
+    Create the UI for the project. - Completed
+    Style the responsiveness across all screens. - Pending
+    Host the project on Varcel. - Completed
+    Create a function that receives inputs from the users onclick of a button, and stores 
+    the inputs in a list. - Completed
+    Create a function that coverts the list to an array. - Pending
+    Create a function that randomly selects an item from the array and displays on the screen. - Pending
