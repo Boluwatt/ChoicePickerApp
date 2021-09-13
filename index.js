@@ -6,6 +6,8 @@ const choicebutton = document.getElementById("choicebtn")
 
 button.addEventListener("click", addChoice);
 
+let choiceList = []
+
 function addChoice(e) {
   const choiceInput = choice.value;
   console.log(choiceInput);
@@ -17,25 +19,23 @@ function addChoice(e) {
     setTimeout(() => message.remove(), 3000);
   } else {
     const li = document.createElement("li");
+    
+    choiceList.push(choiceInput)
+    
     li.appendChild(document.createTextNode(`${choiceInput}`));
 
     list.appendChild(li);
 
     choice.value = "";
 
-    // console.log(typeof (list))
-    // const hello = Object.entries(list)
-    // console.log(hello)
-
-
   }
 }
-const choiceList = ["eat rice", "eat beans", "eat noodles"]
 
-const pickChoice = () => `${choiceList[Math.floor(Math.random() * choiceList.length)]}`;
+function getRandomIndex(arr){
+var length = arr.length;
+return Math.floor(Math.random() * (length - 0))
+}
 
-// pickChoice("eat rice", "eat beans", "eat noodles")
+console.log(getRandomIndex(choiceList))
 
-// choicebutton.addEventListener("click", pickChoice);
-
-console.log(pickChoice)
+console.log(choiceList[getRandomIndex(choiceList)])
