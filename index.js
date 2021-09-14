@@ -31,9 +31,18 @@ function addChoice(e) {
   }
 }
 
+choicebutton.addEventListener("click", pickChoice);
+
 function getRandomIndex(arr){
 var length = arr.length;
 return Math.floor(Math.random() * (length - 0))
+}
+
+function pickChoice(e){
+let finalChoice = choiceList[getRandomIndex(choiceList)]
+console.log(finalChoice)
+
+message.innerHTML = `We think you should ${finalChoice}`
 }
 
 console.log(getRandomIndex(choiceList))
