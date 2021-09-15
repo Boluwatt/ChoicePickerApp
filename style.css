@@ -19,7 +19,7 @@ body {
   text-align: center;
 }
 
-h1, h2, p, strong, i, {
+h1, h2, p, strong, i, li {
   padding-bottom: 20px;
 }
 
@@ -29,10 +29,6 @@ li {
 }
 
 .help-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 50%;
 }
 
@@ -83,7 +79,6 @@ li {
 
 @media (max-width: 768px) {
   .container {
-    display: block;
-    width: 100%;
+    display: block
   }
 }
