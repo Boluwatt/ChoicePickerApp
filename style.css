@@ -77,13 +77,8 @@ li {
   border-radius: 5px;
 }
 
-/* .landingButton {
-  color: #ffffff;
-  background-color: #008080;
-  height: 40px;
-  width: 200px;
-  border-radius: 30px;
-  border: none;
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
 }
-
-D9E2E8*/

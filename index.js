@@ -42,7 +42,7 @@ function pickChoice(e){
 let finalChoice = choiceList[getRandomIndex(choiceList)]
 console.log(finalChoice)
 
-message.innerHTML = `We think you should ${finalChoice}`
+message.innerHTML = `The choice picked is ${finalChoice}`
 }
 
 console.log(getRandomIndex(choiceList))

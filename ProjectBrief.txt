@@ -14,5 +14,5 @@ Tasks
     Host the project on Varcel. - Completed
     Create a function that receives inputs from the users onclick of a button, and stores 
     the inputs in a list. - Completed
-    Create a function that coverts the list to an array. - Pending
-    Create a function that randomly selects an item from the array and displays on the screen. - Pending
+    Create a function that pushes the list to an array. - Completed
+    Create a function that randomly selects an item from the array and displays on the screen. - Completed
