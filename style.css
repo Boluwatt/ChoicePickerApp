@@ -84,5 +84,6 @@ li {
 @media (max-width: 768px) {
   .container {
     display: block;
+    width: 100%;
   }
 }
