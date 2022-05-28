@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 95%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -39,7 +39,7 @@ li {
 }
 
 .help-text {
-  width: 50%;
+  width: 85%;
 }
 
 .choice-pick {
@@ -105,11 +105,5 @@ li {
   font-weight: bold;
   border: 1px solid #14bdac;
   border-radius: 30px;
-  margin: 20px;
+  margin: 20px auto;
 }
-
-/* @media (max-width: 768px) {
-  .container {
-    display: block
-  }
-} */
